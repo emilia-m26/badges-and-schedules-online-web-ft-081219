@@ -15,7 +15,8 @@ end
 end
 
 def printer
-  
+  batch_badge_creator.each do |names|
+    puts "Helo, my name is "
 
 
 

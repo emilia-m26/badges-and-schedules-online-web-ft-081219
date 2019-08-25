@@ -15,11 +15,14 @@ end
 end
 
 def printer(people)
-  batch_badge_creator.each do |nametags|
+  batch_badge_creator(people).each do |nametags|
     puts nametags
   end
   
-  assign_rooms.each do 
+  assign_rooms.(people).each do |room_assignment|
+    puts room_assignment
+  end
+end
 
 
 

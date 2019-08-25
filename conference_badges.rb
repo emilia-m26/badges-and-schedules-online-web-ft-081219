@@ -14,9 +14,12 @@ def  assign_rooms(speaker)
 end
 end
 
-def printer
-  batch_badge_creator.each do |names|
-    puts "Helo, my name is "
+def printer(people)
+  batch_badge_creator.each do |nametags|
+    puts nametags
+  end
+  
+  assign_rooms.each do 
 
 
 

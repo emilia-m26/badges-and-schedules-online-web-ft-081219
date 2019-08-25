@@ -19,7 +19,7 @@ def printer(attendees)
     puts nametags
   end
   
-  assign_rooms.(people).each do |room_assignment|
+  assign_rooms(attendees).each do |room_assignment|
     puts room_assignment
   end
 end
